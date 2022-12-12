@@ -20,6 +20,11 @@
     font-family: 'Lato';
     src: url(./font/Lato/lato-semibold-webfont.woff2);
 }
+
+@font-face {
+    font-family: 'antonio';
+    src: url(./font/Antonio/antonio-light-webfont.woff2);
+}
 /* font config end */
 
 .navbar-nav {
@@ -40,10 +45,31 @@
 
 .contact:hover {
     background-color: crimson;
-    transition: ease 1s;
+    transition: ease 0.5s;
 } 
 
 .nav-item:hover {
     background-color: black;
-    transition: 1.8s;
+    transition: ease 1s;
+}
+
+.jumbotron {
+    padding-top: 7rem;
+    background-image: url(./img/web\ banner.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-color: #111;
+}
+
+.display-4 {
+    font-family: 'antonio',sans-serif;
+}
+
+.lead {
+    font-family: 'antonio',sans-serif;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
 }
