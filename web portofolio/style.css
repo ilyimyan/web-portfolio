@@ -1,0 +1,49 @@
+/* font config */
+
+@font-face {
+    font-family: 'ostrich_1';
+    src:url(font/ostrich/ostrichsans-medium-webfont.woff2)
+
+}
+
+@font-face {
+    font-family: 'ostrich 2';
+    src: url(./font/ostrich/ostrichsans-heavy-webfont.woff2);
+}
+
+@font-face {
+    font-family: 'ostrich 3';
+    src: url(./font/ostrich/ostrich-regular-webfont.woff);
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(./font/Lato/lato-semibold-webfont.woff2);
+}
+/* font config end */
+
+.navbar-nav {
+    margin-left: auto;
+}
+.navbar {
+    background-image: linear-gradient(to right ,black 20%,crimson 70%)
+}
+
+.navbar-brand {
+    font-family: 'ostrich 3','sans-serif';
+    font-size: 30px;
+}
+
+.nav-link {
+    font-family: 'Lato','sans-serif';
+}
+
+.contact:hover {
+    background-color: crimson;
+    transition: ease 1s;
+} 
+
+.nav-item:hover {
+    background-color: black;
+    transition: 1.8s;
+}
