@@ -111,3 +111,12 @@ h2 {
     font-size: 10px;
 }
 
+section {
+    padding-top: 2rem;
+}
+
+.body {
+    margin: 0px;
+    padding: 0px;
+}
+
