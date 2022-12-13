@@ -54,11 +54,10 @@
 }
 
 .jumbotron {
-    padding-top: 7rem;
+    padding-top: 10rem;
     background-image: url(./img/web\ banner.jpg);
     background-size:cover;
     background-repeat:no-repeat;
-    background-color: #111;
 }
 
 .display-4 {
@@ -72,4 +71,19 @@
 .img {
     display: flex;
     justify-content: center;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.pt-5 {
+    font-family: 'antonio','sans-serif';
+}
+p {
+    font-family: 'Helvetica';
+}
+
+h3 {
+    font-family: 'antonio','sans-serif';
 }
