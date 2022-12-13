@@ -25,17 +25,27 @@
     font-family: 'antonio';
     src: url(./font/Antonio/antonio-light-webfont.woff2);
 }
+
+@font-face {
+    font-family: 'roboto';
+    src: url(./font/roboto/roboto-medium-webfont.woff2);
+}
+
+@font-face {
+    font-family: 'roboto light';
+    src: url(./font/roboto/robotocondensed-light-webfont.woff2);
+}
 /* font config end */
 
 .navbar-nav {
     margin-left: auto;
 }
 .navbar {
-    background-image: linear-gradient(to right ,black 20%,crimson 70%)
+    background-image: linear-gradient(to right ,crimson 20%,black 70%)
 }
 
 .navbar-brand {
-    font-family: 'ostrich 3','sans-serif';
+    font-family: 'antonio','sans-serif';
     font-size: 30px;
 }
 
@@ -43,13 +53,18 @@
     font-family: 'Lato','sans-serif';
 }
 
-.contact:hover {
+.project {
     background-color: crimson;
-    transition: ease 0.5s;
-} 
+}
+
+.project:hover {
+    background-color: black;
+    transition: 1s;
+}
 
 .nav-item:hover {
-    background-color: black;
+    background-color: crimson;
+    color: black;
     transition: ease 1s;
 }
 
@@ -86,5 +101,13 @@ p {
 
 h3 {
     font-family: 'antonio','sans-serif';
+}
+
+h2 {
+    font-family: 'antonio','sans-serif';
+}
+
+.copyright {
+    font-size: 10px;
 }
 
