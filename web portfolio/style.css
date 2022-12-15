@@ -113,3 +113,27 @@ section {
     padding: 0px;
 }
 
+.bi {
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+.bi-facebook:hover {
+    color: #4B56D2;
+    transition: ease 0.5s;
+}
+
+.bi-github:hover {
+    color: #EB455F;
+    transition: ease 0.5s;
+}
+
+.bi-instagram:hover {
+    color: #F675A8;
+    transition: ease 0.5s;
+}
+
+.bi-twitter:hover {
+    color: #82C3EC;
+    transition: ease 0.5s;
+}
