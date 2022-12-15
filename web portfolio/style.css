@@ -50,12 +50,8 @@
     font-family: 'Lato','sans-serif';
 }
 
-.project {
-    background-color: crimson;
-}
-
 .project:hover {
-    background-color: black;
+    background-color: crimson;
     transition: 1s;
 }
 
@@ -67,7 +63,7 @@
 
 .jumbotron {
     padding-top: 10rem;
-    background-image: url(./img/web\ banner.jpg);
+    background-image: url(./img/banner.jpg);
     background-size:cover;
     background-repeat:no-repeat;
 }
