@@ -40,9 +40,6 @@
 .navbar-nav {
     margin-left: auto;
 }
-.navbar {
-    background-image: linear-gradient(to right ,crimson 20%,black 70%)
-}
 
 .navbar-brand {
     font-family: 'antonio','sans-serif';
