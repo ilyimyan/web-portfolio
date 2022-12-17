@@ -152,6 +152,7 @@ section {
     text-decoration: none;
     cursor: pointer;
     transition: all 0.3s ease-out;
+    border: 2px white;
 }
 
 .button:hover {
@@ -193,6 +194,7 @@ section {
     text-decoration: none;
     color: white;
     cursor: pointer;
+    border: 2px white;
 }
 
 .popup .close:hover {
